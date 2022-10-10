@@ -1,0 +1,46 @@
+
+body
+{
+    background-color: #F2F1E9;
+}
+h1
+{
+    text-align: center;
+    color: #263F82;
+    font-family: Arial;
+    font-size: 50px;
+}
+hr
+{
+    border-top: 2px solid #8c8b8b;
+    width: 500px;
+}
+
+.Assignment
+{
+    text-align: center;
+}
+.ass1
+{
+    color: #263F82;
+    font-family: Arial;
+    font-size: 20px;
+}
+.ass2
+{
+    color: #263F82;
+    font-family: Arial;
+    font-size: 20px;
+}
+.ass3
+{
+    color: #263F82;
+    font-family: Arial;
+    font-size: 20px;
+}
+.ass4
+{
+    color: #263F82;
+    font-family: Arial;
+    font-size: 20px;
+}

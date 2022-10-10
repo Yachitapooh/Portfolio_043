@@ -1,0 +1,84 @@
+body
+{
+    background-color: #f4e4e4;
+}
+
+fieldset /*เส้นขอบ*/
+{
+    margin-right: 450px;
+    margin-left: 450px;
+    border-radius: 30px;
+}
+
+legend /*ตัวหนังสือ LOGIN*/
+{
+    text-align: center;
+    color: #2e3442;
+    font-size: 60pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p /*หัวข้อ*/
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-right: 40%;
+
+}
+#username, #password /*กล่องข้อความที่ให้กรอก*/
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 25px;
+    margin-right: 20%;
+}
+
+
+
+/* text
+{
+    margin-bottom: 100px; 
+} */
+
+
+legend
+{
+    text-align: center;
+    color: #2e3442;
+    font-size: 60pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit
+{
+    background-color: #ff6b83;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    border-radius: 15px;
+    padding-left: 10px;/*ความกว้างของกล่องข้อความ*/
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#reset
+{
+    background-color: #ff6b83;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    border-radius: 15px;
+    padding-left: 10px;   /*ความกว้างของกล่องข้อความ*/
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+

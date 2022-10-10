@@ -1,0 +1,94 @@
+
+#game-container 
+{
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer 
+{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 3px solid black;
+}
+
+body
+{
+    background-color: #f4e4e4;
+}
+
+fieldset /*เส้นขอบ*/
+{
+    text-align: center;
+    margin-right: 450px;
+    margin-left: 450px;
+    border-radius: 30px;
+}
+
+legend /*ตัวหนังสือ LOGIN*/
+{
+    text-align: center;
+    color: #2e3442;
+    font-size: 60pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p
+{
+    font-size: 20px;
+}
+#timerClock 
+{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#start
+{
+    background-color: #ff6b83;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    border-radius: 15px;
+    padding-left: 3px;/*ความกว้างของกล่องข้อความ*/
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#numbox/*กล่องข้อความที่ให้กรอก*/
+{
+    /* text-align: center; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    /* margin-right: 20%; */
+}
+
+.square 
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+
+.red
+{
+    background-color: red; 
+}
+.blue
+{
+    background-color: blue; 
+}
+.green
+{
+    background-color: green; 
+}

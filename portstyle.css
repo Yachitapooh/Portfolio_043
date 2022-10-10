@@ -1,0 +1,480 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    /* font-family: Arial Black; */    
+    background-color: #f1f1f1;
+}
+
+
+.container
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar
+{
+    height: 50px;
+    width: 100%;
+    background-color: #f1f1f1;
+    position: fixed;
+}
+
+.menubar .logo
+{
+    float: left;
+}
+.menubar h1
+{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: Georgia;
+}
+
+.menubar ul.menu
+{
+    list-style: none; /*จุดหายไปตรงที่เป็นข้อๆ*/
+    float: right;
+}
+.menubar ul.menu li 
+{
+    float: left;
+    margin-right: 20px;
+}
+.menubar ul.menu li a
+{
+    text-decoration: none;  /*ไม่ให้มีเส้นข้างใต้ข้อความลิงค์*/
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    font-size: 15px;
+    /* transition: all 0.5s ease; */
+}
+/* .menubar ul.menu li a:hover
+{
+    color: #333;
+    border-bottom: 0;
+} */
+
+
+/*header*/
+
+.header 
+{
+    width: 100%;
+    background-color: #F2E6D8;
+    padding-top: 10px; /*ให้พื้นที่ headerติดกันกับ menubar*/
+    /* height: 450px; */
+    height: 750px;
+    text-align: center;
+
+}
+.header_area h1
+{
+    font-size: 90px;
+    /* font-weight: bold; */
+    font-weight: normal;
+    /* padding-top: 90px; */
+    padding-top: 250px;
+}
+.header_area p
+{
+    font-size: 18px;
+    font-weight: bold;
+    /* padding-top: 0px; */
+    
+}
+
+.profile
+{
+    width: 100%;
+    height: 400px;
+    /* background-color: aquamarine; */
+    /* background-color: #F2E6D8; */
+    
+}
+.profile_area 
+{
+    /* color: #BF3F3F; */
+    color: #00133f;
+}
+.profile_area img
+{
+
+    float: left;
+    padding-top: 50px;
+    width: 300px;
+    height: auto;
+    /* border-radius: 20px; */
+}
+.profile_text
+{
+    text-align: center;
+    padding-top: 70px;    /*ระยะห่างระหว่าง profile กับขอบบน*/
+    /* margin-top: 140px; */
+
+}
+.profile_area h1 
+{
+    margin: 0;
+    font-size: 50px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.profile_area h3
+{
+    padding-top: 20px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.flex_container
+{
+    display: flex;
+    flex-wrap: wrap; /*ดันลงมาด้านล่าง*/     
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+.flex_container .Hobby
+{
+    border-radius: 30px;
+    border: 4px solid rgb(81, 60, 48);
+    width: 300px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+.flex_container .skill
+{
+    border-radius: 30px;
+    border: 4px solid rgb(81, 60, 48);
+    width: 300px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+.flex_container .attention
+{
+    border-radius: 30px;
+    border: 4px solid rgb(81, 60, 48);
+    width: 300px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+
+hr
+{
+    border-top: 2px solid #8c8b8b;
+    width: 1300px;
+    
+}
+
+
+.profile2
+{
+    width: 100%;
+    height: 500px;
+    /* background-color: #F2E6D8; */
+    padding-top: 5px;
+}
+.profile2_text .Hobby 
+{
+    /* float: left; */
+    font-size: 25px;
+    color: #333;
+    padding-left: 100px;
+}
+.profile2_text .skill
+{
+    font-size: 25px;
+    /* float: left; */
+    color: #333;
+    padding-left: 100px;
+}
+.profile2_text .attention
+{
+    font-size: 25px;
+    /* float: left; */
+    color: #333;
+    padding-left: 100px;
+    
+}
+
+
+
+.content_text h1
+{
+    color: #333;
+}
+.link a
+{
+    text-decoration: none;  
+    
+    font-size: 13px;
+    /* transition: all 0.5s ease; */
+}
+
+
+
+.footer
+{
+    background-color: #F8F3A0;
+    padding-top: 1px;
+    /* color: #00133f; */
+    color: #333;
+    /* padding-bottom: 5px; */
+}
+
+
+.footer_text
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer_text h1
+{
+    font-size: 25px ;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.footer_text a
+{
+
+    font-size: 17px ;
+    font-weight: normal;
+}
+
+a
+{
+    color: #333;
+}
+a:link
+{
+	color: darkslateblue;
+}  */
+/* visited link */
+a:visited
+{
+	color: #de9482; 
+} 
+/* mouse over link */  
+a:hover
+{ 
+	color: #70b4ab; 
+} 
+
+
+.fa 
+{
+    padding: 5px;
+    /* font-size: 100px; */
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    /* border-radius: 50%; */
+}
+  
+.fa:hover 
+{
+      opacity: 0.7;
+}
+.fa-facebook 
+{
+    /* background: #3B5998; */
+    color: #333;
+}
+.fa-instagram 
+{
+    /* background: #125688; */
+    color: #333;
+}
+
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+
+
+
+/*-----------------------------------------------------------PROJECT-----------------------------------------------------*/
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+}
+
+.grid-container > div
+{
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color:#F6F3EC;  /*สีในตาราง*/
+} 
+
+/*----------------------------------------------*/
+
+#header{
+    grid-column: 1 / span 3;
+}
+
+
+#main{
+    grid-column: 1 / span 3;
+}
+
+
+#footer1{
+    grid-column: 1 / span 3;
+} 
+
+
+/*----------------------------------------------*/
+
+/*2columns*/
+@media only screen and (max-width: 767px)
+{
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto 20%;
+        grid-gap: 10px;
+    }
+    #header
+    {
+        grid-column: 1 / span 2;
+    }
+    
+
+    #main
+    {
+        grid-column: 1 / span 1;
+    }
+    
+    #footer1
+    {
+        grid-column: 1 / span 2;
+    }
+}
+
+
+/*-----------------------------------------------*/
+
+
+@media only screen and (max-width: 500px)
+{
+    .grid-container
+    {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1 / span 1;
+    }
+  
+    #main{
+        grid-column: 1 / span 1;
+    }
+    
+    #footer1{
+        grid-column: 1 / span 1;
+    }
+}
+
+
+.projectflex_container
+{
+    display: flex;
+    flex-wrap: wrap; /*ดันลงมาด้านล่าง*/     
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+.projectflex_container .L1
+{
+    width: 500px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+.projectflex_container .L2
+{   
+    width: 500px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+.projectflex_container .L3
+{   
+    width: 500px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+.projectflex_container .play
+{   
+    width: 500px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+
+.projectflex_container
+{
+    display: flex;
+    flex-wrap: wrap; /*ดันลงมาด้านล่าง*/     
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+.projectflex_container .T1
+{
+    width: 500px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+.projectflex_container .T2
+{   
+    width: 500px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+.projectflex_container .T3
+{   
+    width: 500px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+.projectflex_container .T4
+{   
+    width: 500px;
+    margin-left: 50px;  /*เว้นห่าง*/
+    margin-bottom: 10px;  /*เว้นห่าง*/ 
+}
+a
+{
+    font-size:  25pt;
+}
+.ref
+{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

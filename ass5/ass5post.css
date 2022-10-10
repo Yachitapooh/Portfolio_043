@@ -1,0 +1,66 @@
+body
+{
+    background-color: #3a7f60;
+}
+h1
+{
+    text-align: center;
+    color: #ea8bc2;
+    font-size: 60pt;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+h2
+{
+    text-align: center;
+    color: #000000;
+}
+
+#topic1
+{
+    font-size: 30pt;
+    color: antiquewhite;
+}
+
+#comment1
+{
+    font-size: 30pt;
+    color: antiquewhite;
+}
+
+#comment2
+{
+    font-size: 30pt;
+    color: antiquewhite;
+}
+
+textarea
+{
+    text-align: center;
+    padding-top: 20px;
+
+}
+div
+{
+    text-align: center;
+}
+hr
+{
+    height: 0px;
+    width: 50%;
+
+}
+
+button
+{
+    background-color: #ea8bc2;
+    width: 5%;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+
+/*rgb(228, 192, 148);*/
